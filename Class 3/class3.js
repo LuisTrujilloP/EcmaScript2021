@@ -75,4 +75,5 @@ helloPromise()
     .then(response => console.log('golas'))
     .catch(response => console.log(error));
 
-
+let obj = 'oscar';
+let obj2 = 32;
