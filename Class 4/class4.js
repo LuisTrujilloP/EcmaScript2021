@@ -1,8 +1,4 @@
 // // // // // // // // // // // // // CLASES \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 
-
-
-
-
 class calculator {
 
 
@@ -41,3 +37,31 @@ console.log(calc.sum(2, 2));
 
 import { hello } from './module.js';
 hello();
+
+
+// GENERATORS    UNA FUNCION ESPECIAL QUE RETORNA 
+// UNA SERIE DE VALORES SEGUN EL ALGORIDMO DEFINIDO
+
+// CICLO  WHILE 
+
+
+function* heloWorld(){
+    if (true) {
+        yield 'Hello, ';
+    }
+    if (true) {
+        yield 'World, ';
+    }
+};
+
+// aqui definimos la cantidad de pasos que daremos
+const generatorHello = heloWorld(); 
+console.log(generatorHello.next().value);
+
+console.log(generatorHello.next().value);
+
+
+// al llamar algo que no existe no se va a ignorar, lo definira como undefined
+console.log(generatorHello.next().value);
+
+// AQUI TERMINA ES6
