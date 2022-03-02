@@ -17,8 +17,8 @@
 
 
 const data = {
-    frontent : 'Oscar',
-    backtent : 'Luis',
+    frontend : 'Oscar',
+    backtend : 'Luis',
     desing : 'Santiago',
 }
 const values = Object.values(data);

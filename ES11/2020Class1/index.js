@@ -1,3 +1,6 @@
+// DINAMIC IMPORT  LLAMAR PIEZAS DE CODIGO 
+
+
 const button = document.getElementById("btn");
 
 button.addEventListener("click", async () => {

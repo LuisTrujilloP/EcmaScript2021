@@ -1,23 +1,6 @@
 // Async Await   promesas, una nueva caracteristicas de las mas importantes
 
 
-
-
-
-
-const helloWorld = () => {
-    return new Promise ((resolve,reject) => {
-
-(true)
-  ? setTimeout(() => resolve('Hello World'), 3000)
-  : reject(new Error('TestError'))
-
-    })
-};
-
-
-
-
 //  asi se llama antes
 
 const helloAsyng = async () => {
@@ -27,6 +10,20 @@ const helloAsyng = async () => {
 
 }
 helloAsyng();
+
+
+
+
+
+const helloWorld = () => {
+    return new Promise ((resolve,reject) => {
+
+(true)  // and false
+  ? setTimeout(() => resolve('Hello World'), 3000)
+  : reject(new Error('TestError'))
+
+    })
+};
 
 
 
